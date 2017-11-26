@@ -174,7 +174,7 @@ public class Generator {
      * @return a 2d array of Blocks (as in Block[x][y])
      * @author DaPorkchop_
      */
-    public Block[][] gen2dMap(BufferedImage image, Map<MapColor, Block> colorMappings) {
+    public static Block[][] gen2dMap(BufferedImage image, Map<MapColor, Block> colorMappings) {
         if (image == null || colorMappings == null) {
             throw new IllegalStateException("All arguments must be non-null!");
         }
