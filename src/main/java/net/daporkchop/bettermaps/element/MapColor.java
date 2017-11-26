@@ -1,4 +1,4 @@
-package net.daporkchop.bettermaps;
+package net.daporkchop.bettermaps.element;
 
 
 public class MapColor {
